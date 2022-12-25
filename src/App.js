@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Songs</h1>
+      <h2>Rivers And Roads</h2>
+      <video with="700px" height="400px" controls>
+        <source src="https://d2rs871f9yu3lb.cloudfront.net/RiversAndRoads.mp4" type="video/mp4" />
+      </video>
+      <h2>Current Joys A different age</h2>
+      <video with="700px" height="400px" controls>
+        <source src="https://d2rs871f9yu3lb.cloudfront.net/Current_Joys_A_different_age.mp4" type="video/mp4" />
+      </video>
     </div>
   );
 }
